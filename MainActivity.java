@@ -1,7 +1,6 @@
 package insight.com.br.funfacts;                                                                 
                                                                                                  
 import android.app.Activity;                                                                     
-import android.support.v7.app.ActionBarActivity;                                                 
 import android.os.Bundle;                                                                        
 import android.view.Menu;                                                                        
 import android.view.MenuItem;                                                                    
@@ -10,10 +9,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;                                                            
 import android.widget.TextView;                                                                  
 import android.widget.Toast;                                                                     
-                                                                                                 
-import com.google.android.gms.ads.AdRequest;                                                     
-import com.google.android.gms.ads.AdView;                                                        
-                                                                                                 
                                                                                                  
 public class MainActivity extends Activity {                                                     
                                                                                                  
@@ -24,10 +19,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {                                         
         super.onCreate(savedInstanceState);                                                      
         setContentView(R.layout.activity_main);                                                  
-                                                                                                 
-        AdView mAdView = (AdView) findViewById(R.id.adView);                                     
-        AdRequest adRequest = new AdRequest.Builder().build();                                   
-        mAdView.loadAd(adRequest);                                                               
                                                                                                  
         //Declare our View variables and asisgn the Views from the layout file                   
         final TextView factLabel = (TextView) findViewById(R.id.factTextView);                   
