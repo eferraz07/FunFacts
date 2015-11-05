@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">FunFacts</string>
-
     <string name="action_settings">Settings</string>
     <string name="textView2">Did you know?</string>
     <string name="showFactButton">Show Another Fun Fact</string>
